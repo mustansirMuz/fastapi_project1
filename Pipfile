@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 fastapi = "*"
 uvicorn = {extras = ["standard"], version = "*"}
+black = "*"
+isort = "*"
+pre-commit = "*"
 
 [dev-packages]
 
