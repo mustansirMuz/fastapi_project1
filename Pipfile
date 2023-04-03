@@ -4,11 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-fastapi = "*"
-uvicorn = {extras = ["standard"], version = "*"}
-black = "*"
-isort = "*"
-pre-commit = "*"
+fastapi = "0.95.0"
+uvicorn = {extras = ["standard"], version = "0.21.1"}
+black = "23.1.0"
+isort = "5.12.0"
+pre-commit = "3.2.1"
 
 [dev-packages]
 
